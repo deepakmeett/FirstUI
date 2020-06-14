@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:scrollbars="none"
     tools:context=".MainActivity">
-
-
-
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -17,15 +13,13 @@
         android:gravity="center"
         android:orientation="vertical">
 
-
-
         <CheckBox
             android:id="@+id/checkBox"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
             android:text="Android"
-            android:textSize="18sp" />
+            android:textSize="18sp"/>
 
         <CheckBox
             android:id="@+id/checkBox1"
@@ -33,7 +27,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
             android:text="I-Phone"
-            android:textSize="18sp" />
+            android:textSize="18sp"/>
 
         <EditText
             android:id="@+id/textView"
@@ -41,7 +35,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
             android:hint="Written will be shown here"
-            android:textSize="18sp" />
+            android:textSize="18sp"/>
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -54,18 +48,16 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Button"
-                android:textSize="16dp" />
+                android:textSize="16dp"/>
 
             <Button
                 android:id="@+id/button1"
-                android:layout_marginLeft="50dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
                 android:text="Next"
-                android:textSize="16dp" />
-
+                android:textSize="16dp"/>
         </LinearLayout>
-
 
         <AutoCompleteTextView
             android:id="@+id/autoCompleteTextView"
@@ -73,13 +65,13 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:hint="Find your Country"
-            android:textSize="20sp" />
+            android:textSize="20sp"/>
 
         <TextView
             android:id="@+id/text3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp" />
+            android:layout_marginTop="20dp"/>
 
         <TextView
             android:id="@+id/text5"
@@ -89,7 +81,7 @@
             android:text="Please rate us"
             android:textColor="#000"
             android:textSize="20dp"
-            android:textStyle="normal" />
+            android:textStyle="normal"/>
 
         <RatingBar
             android:id="@+id/rate"
@@ -97,7 +89,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="10dp"
-            android:stepSize="1" />
+            android:stepSize="1"/>
 
         <TextView
             android:id="@+id/text4"
@@ -105,19 +97,16 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:textColor="#000"
-            android:textStyle="bold" />
+            android:textStyle="bold"/>
 
         <Button
             android:id="@+id/button3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
             android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
             android:text="Submit Rating"
             android:textAllCaps="false"
-            android:textSize="16sp" />
-
-
+            android:textSize="16sp"/>
     </LinearLayout>
-
 </ScrollView>
